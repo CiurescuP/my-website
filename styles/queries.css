@@ -144,9 +144,10 @@
  @media screen and (max-width: 500px) {
   .about-box {
     margin-top: 330px;
+    margin-bottom: 330px;
   }
    
- .projects-container {
+/*  .projects-container {
     margin-top: 330px;
-  }
+  } */
 } 
