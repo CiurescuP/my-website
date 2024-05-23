@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patricia Ciurescu</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/nav.css">
+  <link rel="stylesheet" href="styles/queries.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2df9982f5a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- NAVBAR WITH SPAN AS THE MENU'S BAR WHICH TURNS INTO X AND HAMBURGER MENU -->
+    <nav id="navbar">
+      <div class="nav-logo"><i class="fa-solid fa-code"></i></div>
+      <ul class="nav-menu">
+        <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+            <a href="#work" class="nav-link">Work</a>
+        </li>
+        <li class="nav-item">
+            <a href="#diplomas" class="nav-link">Diplomas</a>
+        </li>
+        <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+        </li>
+    </ul>
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    </nav>
+
+    <!-- INTRO SECTION WITH RESUME BUTTON -->
+    <main> 
+     <section id="home">
+        <div class="home-container">
+          <div class="info">
+            <h1>Hi, nice to meet you. I am</h1>
+            <h2>Patricia Ciurescu</h2>
+            <h3>I'm a Front-End Developer</h3>
+            <p>I can't remember a time when I wasn't passionate about technology. From video-games to phones, to overcoming all types of PC errors. Now, I'm onto my next journey, which is coding. I am currently working on my future. </p>
+            <form action="https://www.canva.com/design/DAFPe2LpeMs/F-bf6L1z_qXAJkYn13C7lg/view?utm_content=DAFPe2LpeMs&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
+              <button type="submit" class="resume-btn">Resume</button>
+            </form>
+           <!--  <a href="https://www.canva.com/design/DAFPe2LpeMs/F-bf6L1z_qXAJkYn13C7lg/view?utm_content=DAFPe2LpeMs&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><button class="resume-btn">Resume</button></a> -->
+          </div>
+        </div>
+      </section>
+    </main> 
+
+    <!-- ABOUT ME BOX WITH RESPONSIVE IMG -->
+    <section class="about-box" id="about"> 
+      <div class="about-container">
+        <h4 class="about-container_img">
+          <img src="me-Photoroom.png-Photoroom.png" alt="A picture of myself">
+        </h4>
+        <div class="about-container_info">
+          <p class="about-heading">About me</p>
+          <p class="about-container_text">I liked coding in 2021 when I did a 6 months Web Development course on Coursera. I became passionate with coding in 2022 when I finished the course and had to get my feet wet by making projects from scratch. Everything about coding makes sense to me; Designing, the creativity that comes with it, the freedom and debugging, they all makes sense to me.</p>
+          <p class="about-container_text">The internet has come a long way and still, it is constantly changing. That's not a problem for me, because I'm extremely passionate about technology, I love keeping up with it, and I love spending time on a computer. When it comes to websites, I am a perfectionist, I am organized, determinated, responsible and I am very creative. </p>
+          <p class="about-container_text">I'm inpatient to start my Web Developer career, to be a part of the IT world, to share my passions with my colleagues and with the world. To make sure that everyone on all types of devices can easily access a web page. Outside of work, I love playing video-games.</p> 
+          <p class="about-container_text">Here are some technologies I have been working with:</p> 
+          <ul class="skills">
+            <li><i class="fa-solid fa-angles-right"></i>HTML</li>
+            <li><i class="fa-solid fa-angles-right"></i>CSS</li>
+            <li><i class="fa-solid fa-angles-right"></i>Javascript</li>
+            <li><i class="fa-solid fa-angles-right"></i>JQuery</li>
+            <li><i class="fa-solid fa-angles-right"></i>Bootstrap</li>
+            <li><i class="fa-solid fa-angles-right"></i>Tailwind CSS</li>
+            <li><i class="fa-solid fa-angles-right"></i>Responsive Design</li>
+          </ul>
+          <p class="about-container_text">I am currently learning React. </p> 
+        </div>
+      </div>
+    </section>
+
+    <!-- GRID CARDS WHICH CONTAIN SOME OF MY PROJECTS -->
+    <section class="projects-container" id="work">
+      <h2 class="cards-heading">My Projects</h2>
+      <a href="https://github.com/CiurescuP?tab=repositories" class="cards-archive" target="_blank">view archives</a>
+      <ul class="projects-grid">
+          <li class="projects-card">
+            <div class="card-header">
+              <div class="folder-icon">
+                <i class="fa-regular fa-folder"></i>
+              </div>
+              <span class="external-links">
+                <a class="github-icon" href="https://github.com/CiurescuP/movie-cards" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+              </a>
+                <a class="open-icon" href="https://ciurescup.github.io/movie-cards/" target="_blank">
+                  <i class="fa-regular fa-paper-plane"></i>
+              </a>
+              </span>
+            </div>
+            <div class="card-title">Interactive and responsive movie cards</div>
+            <div class="card-desc">
+              "Cards created for fun and for gaining experience. I came upon Simone Bernabè's movie cards and with a few lines of code, I made it my own kind of cards."
+            </div>
+            <div class="card-tech">HTML, CSS</div>
+          </li>
+
+          <li class="projects-card">
+            <div class="card-header">
+              <div class="folder-icon">
+                <i class="fa-regular fa-folder"></i>
+              </div>
+              <span class="external-links">
+                <a class="github-icon" href="https://github.com/CiurescuP/music-player" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+              </a>
+                <a class="open-icon" href="https://ciurescup.github.io/music-player/" target="_blank">
+                  <i class="fa-regular fa-paper-plane"></i>
+              </a>
+              </span>
+            </div>
+            <div class="card-title">Music Player with volume control</div>
+            <div class="card-desc">
+              "Interactive Music player with changing background and repeat button. This is the most Javascript I've used so far, and everything came out well. "
+            </div>
+            <div class="card-tech">HTML, CSS, JavaScript</div>
+          </li>
+
+          <li class="projects-card">
+            <div class="card-header">
+              <div class="folder-icon">
+                <i class="fa-regular fa-folder"></i>
+              </div>
+              <span class="external-links">
+                <a class="github-icon" href="https://github.com/CiurescuP/quote-generator" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+              </a>
+                <a class="open-icon" href="https://ciurescup.github.io/quote-generator/" target="_blank">
+                  <i class="fa-regular fa-paper-plane"></i>
+              </a>
+              </span>
+            </div>
+            <div class="card-title">API Quote Generator</div>
+            <div class="card-desc">
+              "I built the quote generator with an API that randomly changes the quotes and I have also added a text-to-speech, copy to clipboard with an alert popup and the tweet button."
+            </div>
+            <div class="card-tech">HTML, CSS, JavaScript, API</div>
+          </li>
+
+          <li class="projects-card">
+            <div class="card-header">
+              <div class="folder-icon">
+                <i class="fa-regular fa-folder"></i>
+              </div>
+              <span class="external-links">
+                <a class="github-icon" href="https://github.com/CiurescuP/calculator-app" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+              </a>
+                <a class="open-icon" href="https://ciurescup.github.io/calculator-app/" target="_blank">
+                  <i class="fa-regular fa-paper-plane"></i>
+              </a>
+              </span>
+            </div>
+            <div class="card-title">Calculator App</div>
+            <div class="card-desc">
+              "Something that people used to have lots of headaches over in the past, can now be created in a few hours, with the use of HTML, CSS and Javascript."
+            </div>
+            <div class="card-tech">HTML, CSS, JavaScript</div>
+          </li>
+
+          <li class="projects-card">
+            <div class="card-header">
+              <div class="folder-icon">
+                <i class="fa-regular fa-folder"></i>
+              </div>
+              <span class="external-links">
+                <a class="github-icon" href="https://github.com/CiurescuP/weather-app" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+              </a>
+                <a class="open-icon" href="https://ciurescup.github.io/weather-app/" target="_blank">
+                  <i class="fa-regular fa-paper-plane"></i>
+              </a>
+              </span>
+            </div>
+            <div class="card-title">API Weather App</div>
+            <div class="card-desc">
+              "An API Weather App, by countries, not by states. It was my first time working with API and I had no idea what to begin with, but I'd say it came out pretty well."
+            </div>
+            <div class="card-tech">HTML, CSS, JavaScript </div>
+          </li>
+          
+          <li class="projects-card">
+            <div class="card-header">
+              <div class="folder-icon">
+                <i class="fa-regular fa-folder"></i>
+              </div>
+              <span class="external-links">
+                <a class="github-icon" href="https://github.com/CiurescuP/landing-page" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+              </a>
+                <a class="open-icon" href="https://ciurescup.github.io/landing-page/" target="_blank">
+                  <i class="fa-regular fa-paper-plane"></i>
+              </a>
+              </span>
+            </div>
+            <div class="card-title">PS5 Landing Page</div>
+            <div class="card-desc">
+              "I remember I was scared to work with Tailwind CSS, but once I got into it, it came out better than I had imagined. This is the project I am most proud of. I love the modern look Tailwind provides."
+            </div>
+            <div class="card-tech">HTML, CSS, Tailwind CSS</div>
+          </li>
+          </ul>
+    </section>
+
+    <!-- CAROUSEL AUTOMATIC AND MANUAL SLIDESHOW OF MY DIPLOMAS  -->
+    <section class="slideshow-container" id="diplomas">
+      <h2 class="diplomas-heading">My Diplomas</h2>
+      <div class="mySlides fade ">
+        <img src="diplomas/html-diploma.jpg" alt="My HTML diploma">
+        <a href="https://coursera.org/share/c46dc536f0756150d52b0463973c8f9d" target="_blank" class="diploma-icon"><i class="fa-brands fa-html5"></i></a>
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="diplomas/css-diploma.jpg" alt="My CSS diploma">
+        <a href="https://coursera.org/share/169b76b3d0013ba756071dafd62264b6" target="_blank" class="diploma-icon" > <i class="fa-brands fa-css3-alt"></i></a>
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="diplomas/javascript-diploma.jpg" alt="My Javascript diploma">
+        <a href="https://coursera.org/share/48e64cdbca11a36850af267c6a1d0881" target="_blank" class="diploma-icon"><i class="fa-brands fa-js"></i></a>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="diplomas/responsivedesign-diploma.jpg" alt="My Responsive Desigm diploma">
+        <a href="https://coursera.org/share/441a35840f55bfedf6d1ff7aa166c343" target="_blank" class="diploma-icon"><i class="fa-solid fa-mobile-screen"></i></a>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="diplomas/capstone-diploma.jpg" alt="The Capstone diploma">
+        <a href="https://coursera.org/share/40b65ed4d514d104e7e5967217e78fb4" target="_blank" class="diploma-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="diplomas/coursera-diploma.jpg" alt="My Coursera diploma">
+        <a href="https://coursera.org/share/f204a1deae852d7d64bb3e1a7ded94a3" target="_blank" class="diploma-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+    <br>
+    
+    <div class="slide-dots">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <!-- SECTION OF MY SOCIAL MEDIA -->
+  <section class="social-icons">
+    <div class="social-container">
+      <h2>Check out my socials</h2>
+      <div class="social-links">
+        <a href="https://github.com/CiurescuP" target="_blank" title="Check my Github"><i class="fa-brands fa-github"></i></a>
+        <a href="https://codepen.io/patriciaa11" target="_blank" title="Check my Codepen"><i class="fa-brands fa-codepen"></i></a>
+        <a href="https://www.linkedin.com/in/patricia-ciurescu-02464b256/" target="_blank" title="Check my LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:@patricia.ciurescu@yahoo.com" title="Send an Email"><i class="fa-regular fa-envelope"></i></a>
+      </div>
+  </div>
+  </section>
+
+    <!-- FOOTER WITH A THANK YOU NOTE AND END OF PAGE -->
+  <footer id="contact">
+    <div class="text-section"> 
+      <h2 class="contact-header">Thank you for taking the time to visit my website!</h2>
+      <p class="contact-text">If you like my work, give me a change to work with you.</p>
+      <p class="contact-text">Here's a link here to my first website for you to see how much I've learned.</p>
+      <a href="https://ciurescup.github.io/first-web-page/" target="_blank"><span class="website-link">See my first Website</span></a>
+    </div>
+    <p class="rights-section">Patricia Ciurescu | Designed by me. Built by me.</p>
+    <p class="rights-section">&copy; All Rights Reserved.  </p> 
+  </footer>
+
+      <script src="js/script.js"></script>
+</body>
+</html>

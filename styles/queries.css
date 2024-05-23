@@ -1,0 +1,148 @@
+@media (max-width: 1200px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  .about-box {
+    margin-top: 180px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-box {
+    margin-top: 180px;
+  }
+
+  .projects-container {
+    margin-top: 180px;
+  }
+
+  .about-container {
+    max-width: 70rem;
+  }
+
+  .about-container_img {
+    min-width: 30rem;
+    max-width: 30rem;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-menu {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background:  rgba(31, 32, 32, 0.980);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.6s ease-out;
+  }
+
+  .nav-menu.active {
+      left: 0;
+  }
+
+  .nav-item {
+    margin: 40px 0;
+  }
+
+  .nav-link {
+    width: 100%;
+    font-size: 26px;
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .hamburger {
+      display: block;
+      cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+      -webkit-transform: translateY(8px) rotate(45deg);
+      transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+      -webkit-transform: translateY(-8px) rotate(-45deg);
+      transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .about-box {
+    margin-top: 300px;
+  }
+
+  .about-container {
+    padding: 2.5rem;
+    flex-direction: column;
+  }
+
+  .about-container_img {
+    min-width: 100%;
+    max-width: 100%;
+    transform: translate(0, -8rem);
+  }
+}
+
+.projects-container {
+  margin-top: 250px;
+}
+
+.cards-heading {
+  margin-top: 350px;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+
+  .nav-logo {
+    margin-left: -60px;
+  }
+
+  #home .info p {
+    font-size: 20px;
+    max-width:max-content;
+  }
+
+  .resume-btn {
+    font-size: 16px;
+  }
+
+  .about-box {
+    margin-top: 180px;
+  }
+
+  .cards-heading {
+    margin-top: 450px;
+  }
+
+  .swiper-navBtn {
+    display: none;
+  }
+
+  .contact-header {
+    font-size: 3rem;
+  }
+
+  .contact-text {
+    font-size: 1.8rem;
+  }
+
+  .website-link {
+    font-size: 1.2rem;
+  }
+}
+
+ @media only screen and (max-width: 500px) {
+  .about-box {
+    margin-top: 330px;
+  }
+} 
