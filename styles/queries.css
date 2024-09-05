@@ -143,7 +143,6 @@
 
  @media only screen and (max-width: 500px) {
   .about-box {
-    margin-top: 330px;
-    margin-bottom: 330px;
+    margin-top: 310px;
   }
 } 
