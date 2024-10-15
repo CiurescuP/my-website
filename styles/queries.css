@@ -140,18 +140,10 @@
   .projects-container {
     margin-top: 150px;
   }
-
-/*   .slideshow-container {
-    margin: 0 1.8em;
-  } */
 }
 
  @media only screen and (max-width: 500px) {
   .projects-container {
     margin-top: 150px;
   }
-
-/*   .slideshow-container {
-    margin: 0 1.8em;
-  } */
 } 
