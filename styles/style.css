@@ -17,10 +17,24 @@
   line-height: 1.6em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #1f2020;
-  scroll-behavior: smooth;
   color: #fff;
+}
+
+.hidden-section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 #home {
@@ -100,7 +114,7 @@ body {
 }
 
 .about-box {
-  margin-bottom: -350px;
+  margin-bottom: -100px;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -194,6 +208,7 @@ body {
   opacity: 1;
   font-size: 2.2rem;
   font-family: var(--big-font);
+  margin-top: 200px;
 }
 
 .cards-archive {
@@ -229,9 +244,10 @@ body {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding-bottom: 250px;
+  padding: 0 1.5em;
   max-width: 1000px;
   min-height: 50vh;
+  margin-top: 250px;
 }
 
 .projects-grid {
@@ -322,6 +338,7 @@ body {
   justify-content: center;
   font-size: 35px;
   margin-bottom: 50px;
+  margin-top: 250px;
   opacity: 1;
   font-family: var(--big-font);
 }
