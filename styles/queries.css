@@ -150,12 +150,6 @@
   .projects-container {
     margin-top: 150px;
   }
-   
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
 
 /*   .slideshow-container {
     margin: 0 1.8em;
