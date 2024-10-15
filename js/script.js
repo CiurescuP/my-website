@@ -34,7 +34,6 @@ var scrollTop = document.documentElement.scrollTop;
   lastScrollTop = scrollTop;
 });
 
-
 // A SCROLL-TRIGGERED ANIMATION WHERE SECTIONS FADE IN
 const sections = document.querySelectorAll('.hidden-section');
 
@@ -51,7 +50,6 @@ IntersectionObserver((entries, observer) => {
 sections.forEach(section => {
   observer.observe(section);
 })
-
 
 // CAROUSEL SLIDESHOW OF DIPLOMAS
 var slideIndex = 1;
