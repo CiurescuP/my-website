@@ -45,8 +45,7 @@
         <span class="bar"></span>
     </div>
     </nav>
-
-    <!-- INTRO SECTION WITH RESUME BUTTON -->
+  
     <main> 
      <section id="home">
         <div class="home-container">
@@ -55,25 +54,26 @@
             <h2>Patricia Ciurescu</h2>
             <h3>I'm a Front-End Developer</h3>
             <p>I can't remember a time when I wasn't passionate about technology. From video-games to phones, to overcoming all types of PC errors. Now, I'm onto my next journey, which is coding. I am currently working on my future. </p>
-            <form action="https://www.canva.com/design/DAGGEJrBvkc/C0LXvwaDyCTYufq_3DLnyg/view?utm_content=DAGGEJrBvkc&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
+            <button onclick="window.open('resume.pdf', '_blank')" class="resume-btn">Resume</button>
+            <!-- <form action="https://www.canva.com/design/DAGGEJrBvkc/C0LXvwaDyCTYufq_3DLnyg/view?utm_content=DAGGEJrBvkc&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
               <button type="submit" class="resume-btn">Resume</button>
-            </form>
+            </form> -->
           </div>
         </div>
       </section>
     </main> 
 
     <!-- ABOUT ME BOX WITH RESPONSIVE IMG -->
-    <section class="about-box" id="about"> 
+    <section class="about-box hidden-section" id="about"> 
       <div class="about-container">
         <h4 class="about-container_img">
           <img src="me-Photoroom.png-Photoroom.png" alt="A picture of myself">
         </h4>
         <div class="about-container_info">
           <p class="about-heading">About me</p>
-          <p class="about-container_text">I liked coding in 2021 when I did a 6 months Web Development course on Coursera. I became passionate with coding in 2022 when I finished the course and had to get my feet wet by making projects from scratch. Everything about coding makes sense to me; Designing, the creativity that comes with it, the freedom and debugging, they all makes sense to me.</p>
-          <p class="about-container_text">The internet has come a long way and still, it is constantly changing. That's not a problem for me, because I'm extremely passionate about technology, I love keeping up with it, and I love spending time on a computer. When it comes to websites, I am a perfectionist, I am organized, determinated, responsible and I am very creative. </p>
-          <p class="about-container_text">I'm inpatient to start my Web Developer career, to be a part of the IT world, to share my passions with my colleagues and with the world. To make sure that everyone on all types of devices can easily access a web page. Outside of work, I love playing video-games.</p> 
+          <p class="about-container_text">I liked coding in 2021 when I began a 6 months Web Development course on Coursera. Coding became my passion in 2022 when I finished the course and had to learn more about Development and code projects from scratch. Computers have always been in my life, so everything about coding makes sense to me; Designing, the creativity that comes with it, the freedom and debugging.</p>
+          <p class="about-container_text">The internet has come a long way and still, it is constantly changing. That's not a problem for as I am extremely passionate about technology and I enjoy learning new things everyday. When it comes to websites, I am a perfectionist, I am organized, determinated, responsible and I find creative ways to solve a problem.</p>
+          <p class="about-container_text">I'm thrilled to start my Web Developer career, to be a part of the IT world, to share my passions with my colleagues and with the world. My devotion as a Web Developer is to make sure that everyone on all types of devices can easily access a web page. Outside of work, I have a passion for video-games and movies.</p> 
           <p class="about-container_text">Here are some technologies I have been working with:</p> 
           <ul class="skills">
             <li><i class="fa-solid fa-angles-right"></i>HTML</li>
@@ -90,10 +90,10 @@
     </section>
 
     <!-- GRID CARDS WHICH CONTAIN SOME OF MY PROJECTS -->
-    <section class="projects-container" id="work">
+    <section class="projects-container hidden-section" id="work">
       <h2 class="cards-heading">My Projects</h2>
       <a href="https://github.com/CiurescuP?tab=repositories" class="cards-archive" target="_blank">view archives</a>
-      <ul class="projects-grid">
+      <ul class="projects-grid hidden-section">
           <li class="projects-card">
             <div class="card-header">
               <div class="folder-icon">
@@ -223,7 +223,7 @@
     </section>
 
     <!-- CAROUSEL AUTOMATIC AND MANUAL SLIDESHOW OF MY DIPLOMAS  -->
-    <section class="slideshow-container" id="diplomas">
+    <section class="slideshow-container hidden-section" id="diplomas">
       <h2 class="diplomas-heading">My Diplomas</h2>
       <div class="mySlides fade ">
         <img src="diplomas/html-diploma.jpg" alt="My HTML diploma">
@@ -270,7 +270,7 @@
     </div>
 
     <!-- SECTION OF MY SOCIAL MEDIA -->
-  <section class="social-icons">
+  <section class="social-icons hidden-section" id="contact">
     <div class="social-container">
       <h2>Check out my socials</h2>
       <div class="social-links">
@@ -283,7 +283,7 @@
   </section>
 
     <!-- FOOTER WITH A THANK YOU NOTE AND END OF PAGE -->
-  <footer id="contact">
+  <footer class="hidden-section">
     <div class="text-section"> 
       <h2 class="contact-header">Thank you for taking the time to visit my website!</h2>
       <p class="contact-text">If you like my work, give me a change to work with you.</p>
