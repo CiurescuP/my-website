@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1305px) {
+ @media only screen and (max-width: 1305px) {
   .projects-grid {
     grid-template-columns: repeat(3, 380px);
   }
@@ -137,12 +137,12 @@
   }
 }
 
-@media (max-width: 590px) {
+@media (max-width: 480px) {
   .projects-container {
     margin-top: 170px;
   }
 
   .about-box {
-    margin-top: 510px; 
+    margin-top: 810px; 
   }
 } 
