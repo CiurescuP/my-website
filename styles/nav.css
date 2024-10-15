@@ -7,9 +7,6 @@ a {
 }
 
 nav{
- /*  position: fixed;
-  z-index: 1;
-  background-color: #1f2020; */
   position: fixed;
   background-color: #1f2020ea; 
   z-index: 1;
@@ -40,7 +37,6 @@ nav .logo{
 
 .nav-item a{
   margin: 0 5px; 
-/* margin-left: 5rem; */
 }
 
 .nav-link{
@@ -79,4 +75,21 @@ nav .logo{
 
 .hamburger {
   display: none;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #80808086; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: var(--main-color); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7c4545; 
 }
