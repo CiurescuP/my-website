@@ -18,7 +18,7 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
-// WHEN ON SCROLL DOWN, NAVBAR DISAPPEARS, WHEN SCROLLING BACK UP, NAVBAR COMES BACK OUT.
+// WHEN ON SCROLL DOWN, NAVBAR DISAPPEARS, WHEN SCROLLING BACK UP, NAVBAR APPEARS.
 var lastScrollTop;
 
 navbar = document.getElementById('navbar');
@@ -35,7 +35,25 @@ var scrollTop = document.documentElement.scrollTop;
 });
 
 
-// CAROUSEL SLIDESHOW 
+// A SCROLL-TRIGGERED ANIMATION WHERE SECTIONS FADE IN
+const sections = document.querySelectorAll('.hidden-section');
+
+const observer = new
+IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1 });
+
+sections.forEach(section => {
+  observer.observe(section);
+})
+
+
+// CAROUSEL SLIDESHOW OF DIPLOMAS
 var slideIndex = 1;
 var myTimer;
 var slideshowContainer;
@@ -47,7 +65,7 @@ window.addEventListener("load",function() {
     slideshowContainer = document.getElementsByClassName('slideshow-inner')[0];
 })
 
-// Next/previous controls
+// CAROUSEL NEXT / PREVIOUS CONTROLS 
 function plusSlides(n){
   clearInterval(myTimer);
   if (n < 0){
@@ -63,7 +81,7 @@ function plusSlides(n){
   }
 }
 
-// Thumbnail image controls
+// THUMBNAIL IMAGE CONTROLS
 function currentSlide(n){
   clearInterval(myTimer);
   myTimer = setInterval(function(){plusSlides(n + 1)}, 4000);
