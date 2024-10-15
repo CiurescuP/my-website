@@ -137,12 +137,12 @@
   }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 590px) {
   .projects-container {
     margin-top: 170px;
   }
 
   .about-box {
-    margin-top: 810px; 
+    margin-top: 510px; 
   }
-} 
+
